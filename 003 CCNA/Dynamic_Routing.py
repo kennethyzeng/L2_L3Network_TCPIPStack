@@ -25,8 +25,7 @@ sh ip route
 en
 sh ip route 
 
-#2 configure floaing static routes on R1 and R2 that stilll have 
-connection if the link between R1 and R2 failed 
+#2 configure floaing static routes on R1 and R2 that stilll have connection if the link between R1 and R2 failed 
 #@R2 
 conf t
 ip route 10.0.1.0 255.255.255.0 203.0.113.5 111
